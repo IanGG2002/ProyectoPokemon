@@ -13,16 +13,16 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("../view/hellofx.fxml"));
-        primaryStage.setTitle("Hello World");
+        Parent root = FXMLLoader.load(getClass().getResource("../view/login.fxml"));
+        primaryStage.setTitle("POKEMON GUATEMALA");
         primaryStage.setScene(new Scene(root, 400, 300));
         primaryStage.show();
     }
 
 
     public static void main(String[] args) {
-        launch(args);
-//    	DataBaseConnection db = new DataBaseConnection();
-//    	Connection con = db.getConnection();
+    	launch(args);
+  //  	DataBaseConnection db = new DataBaseConnection();
+  //	Connection con = db.getConnection();
     }
 }
